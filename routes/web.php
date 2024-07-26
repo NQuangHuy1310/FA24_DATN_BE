@@ -28,4 +28,8 @@ Route::get('/edit', function () {
 
 Route::get('/delete', function () {
     return "Xóa người dùng";
+}
+
+Route::get('/create_category', function () {
+    return "Thêm mới danh mục";
 });
