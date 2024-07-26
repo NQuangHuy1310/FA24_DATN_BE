@@ -21,3 +21,8 @@ Route::get('/', function () {
 Route::get('/get', function () {
     return "Thêm người dùng";
 });
+
+Route::get('/edit', function () {
+    return "Sửa người dùng";
+});
+
