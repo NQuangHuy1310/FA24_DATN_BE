@@ -26,3 +26,6 @@ Route::get('/edit', function () {
     return "Sửa người dùng";
 });
 
+Route::get('/delete', function () {
+    return "Xóa người dùng";
+});
