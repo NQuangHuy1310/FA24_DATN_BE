@@ -26,3 +26,6 @@ Route::get('/edit', function () {
     return "Sửa người dùng";
 });
 
+Route::get('/create_category', function () {
+    return "Thêm mới danh mục";
+});
